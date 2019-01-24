@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Enming XIE</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, my name is Enming XIE
+    \n\nI love programming.
+    \n\nA paid video course (19 hours) about development of various AI
+    \napplications with Google TensorFlow using Python
+    \n(1720 purchases until January 16 2019.
+    \n\nEach purchase brings 299 Yuan, about 40 Euros.
+    \n\nI do not get all the money: I have 40%, the MOOC has 60%)
+    \nPython, TensorFlow, Keras, OpenAI Gym/Universe, Numpy,
+    \nMatplotlib, Music21, PyCharm, CNN, RNN (LSTM), GAN (DCGAN),
+    \nDeep Q Learning, Policy Gradient, A3C, VirtualBox, Ubuntu, macOS</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
+</resources>
