@@ -20,7 +20,6 @@
     tools:context="com.example.android.navigation.InGame">
 
     <data>
-
         <variable
             name="game"
             type="com.example.android.navigation.GameFragment" />
