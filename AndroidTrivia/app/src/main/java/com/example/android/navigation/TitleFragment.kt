@@ -10,7 +10,6 @@ import androidx.navigation.Navigation
 import com.example.android.navigation.databinding.FragmentTitleBinding
 
 class TitleFragment : Fragment() {
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val binding: FragmentTitleBinding = DataBindingUtil.inflate(
