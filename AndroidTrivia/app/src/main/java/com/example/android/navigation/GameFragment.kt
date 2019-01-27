@@ -97,10 +97,12 @@ class GameFragment : Fragment() {
                         setQuestion()
                         binding.invalidateAll()
                     } else {
-                        view.findNavController().navigate(R.id.action_gameFragment_to_gameWonFragment)
+                        // We won
+                    view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToGameWonFragment(numQuestions, questionIndex))
                     }
                 } else {
-                    view.findNavController().navigate(R.id.action_gameFragment_to_gameOverFragment)
+                    // Game over
+                    view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToGameOverFragment())
                 }
             }
         }
